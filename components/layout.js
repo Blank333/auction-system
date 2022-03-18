@@ -1,5 +1,15 @@
-import styles from './layout.module.css'
+import Navbar from './navbar'
 
 export default function layout({children}) {
-  return <div className={styles.container}>{children}</div>;
+  return (
+    <div>
+
+      <Navbar />
+
+      <div className='p-3 mr-4'> 
+        {children}
+      </div>
+
+    </div>
+  )
 }
