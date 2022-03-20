@@ -10,7 +10,7 @@ export default function navbar() {
 
     return (
         <div>
-            <nav className = 'flex items-center justify-center flex-warp bg-green-400 p-3 text-gray-100 rounded-lg'>
+            <nav className = 'flex items-center justify-center flex-warp bg-green-400 p-3 text-gray-100 rounded-sm'>
     
                 <button className= 'inline-flex p-3 hover:rounded-lg hover:bg-green-500 rounded lg:hidden ml-auto'
                     onClick={handleClick}
@@ -29,6 +29,20 @@ export default function navbar() {
                         <a classname = 'inline-flex p-2 mr-4'>
                             <span className = 'text-xl hover:rounded-lg hover:bg-green-500 font-bold uppercase tracking-wide p-2'>
                                 Auctions
+                            </span>
+                        </a>
+                    </Link>
+                    <Link href='/about'>
+                        <a classname = 'inline-flex p-2 mr-4'>
+                            <span className = 'text-xl hover:rounded-lg hover:bg-green-500 font-bold uppercase tracking-wide p-2'>
+                                About
+                            </span>
+                        </a>
+                    </Link>
+                    <Link href='/contact'>
+                        <a classname = 'inline-flex p-2 mr-4'>
+                            <span className = 'text-xl hover:rounded-lg hover:bg-green-500 font-bold uppercase tracking-wide p-2'>
+                                Contact Us
                             </span>
                         </a>
                     </Link>

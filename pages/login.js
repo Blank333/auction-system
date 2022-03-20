@@ -5,21 +5,21 @@ export default function Login() {
     return (
         <Layout>
             <div className='flex place-content-center place-items-center h-screen bg-green-50'>
-                <span className=''>
+                <span>
                     <form action ='login' method='post' className='inline-flex drop-shadow-lg shadow flex-col bg-blue-200 rounded py-4 px-6'>
-                        
-                        <label for='user' className='py-1'>Username</label>
-                        <input type='text' id='user' name='user'  className='p-1 shadow rounded' placeholder='Username' />
-                        
-                        <label for='password' className='py-1 pt-3'>Password</label>
-                        <input type='password' id='password' name='password' className='p-1 shadow rounded' placeholder='Password'/>
+                        <p className='inline-flex justify-center bg-green-300 p-2 mb-4 text-gray-800 rounded shadow w-1/3'>
+                            Login
+                        </p>
+
+                        <input type='text' required id='user' name='user'  className='p-2 mb-2 shadow rounded' placeholder='Username' />
+                        <input type='password' required id='password' name='password' className='p-2 mt-2 shadow rounded' placeholder='Password'/>
                         
                         <div className='inline-flex mt-3 pt-2 justify-between'>
                             <button type='submit' 
                                 className='w-half bg-blue-400 hover:bg-blue-500 text-white font-bold rounded p-2'>
                                 Login
                             </button>
-                            <Link href='/login'>
+                            <Link href='/register'>
                             <a className='w-half bg-blue-400 hover:bg-blue-500 text-white font-bold rounded p-2'>
                                 Register
                             </a>
