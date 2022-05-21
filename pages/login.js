@@ -4,9 +4,9 @@ import Link from 'next/link';
 export default function Login() {
     return (
         <Layout>
-            <div className='flex place-content-center place-items-center h-screen bg-green-50'>
+            <div className='flex place-content-center h-xsc bg-green-50'>
                 <span>
-                    <form action ='login' method='post' className='inline-flex drop-shadow-lg shadow flex-col bg-blue-200 rounded py-4 px-6'>
+                    <form action ='login' method='post' className='inline-flex drop-shadow-lg shadow flex-col bg-blue-200 rounded py-4 px-6 mt-20'>
                         <p className='inline-flex justify-center bg-green-300 p-2 mb-4 text-gray-800 rounded shadow w-1/3'>
                             Login
                         </p>

@@ -10,7 +10,7 @@ export default function navbar() {
 
     return (
         <div>
-            <nav className = 'flex items-center justify-center flex-warp bg-green-400 p-3 text-gray-100 rounded-sm'>
+            <nav className = 'flex items-center justify-center flex-warp bg-green-400 p-3 text-gray-100 rounded-lg'>
     
                 <button className= 'inline-flex p-3 hover:rounded-lg hover:bg-green-500 rounded lg:hidden ml-auto'
                     onClick={handleClick}

@@ -1,14 +1,20 @@
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import Layout from '../components/layout'
+import Link from 'next/link'
 
 export default function auctions() {
     return (
         <Layout>
-            <div className={styles.container}>
+            <div className='container'>
                 
 
-                <h1 className={styles.main}>Auctions here
+                <h1 className='container'>
+                    <Link href = '/auctions/Royal'>
+                        <a className=''>
+                            Royal
+                        </a>
+                    </Link>
+                    <br />
                     <Image 
                         src = '/images/apple.jpg'
                         height = {360}
