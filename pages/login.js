@@ -3,7 +3,6 @@ import Link from 'next/link';
 
 export default function Login() {
     return (
-        <Layout>
             <div className='flex place-content-center h-xsc bg-green-50'>
                 <span>
                     <form action ='login' method='post' className='inline-flex drop-shadow-lg shadow flex-col bg-blue-200 rounded py-4 px-6 mt-20'>
@@ -28,6 +27,5 @@ export default function Login() {
                     </form>
                 </span>
             </div>
-        </Layout>
     )
 }
