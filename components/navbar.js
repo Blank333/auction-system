@@ -9,9 +9,9 @@ export default function navbar() {
     };
 
     return (
-        <div>
+        <div className='bg-banner pt-1 bg-no-repeat w-screen h-28 bg-center'>
             <nav className = 'flex items-center w-full flex-warp shadow-lg rounded-lg bg-gray-300 text-gray-800'>
-    
+            
                 <navbar className = 'text-xs font-bold uppercase tracking-wide w-full inline-flex'>
                     <button className= 'inline-flex p-3 hover:rounded-lg hover:bg-green-100 rounded lg:hidden ml-auto'
                         onClick={handleClick}
