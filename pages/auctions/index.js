@@ -4,69 +4,76 @@ import Link from 'next/link'
 export default function auctions() {
     return (
             <div className='p-2 text-center flex flex-wrap justify-center'>
-                    <div className='w-1/6 p-3 border-red-400 border m-2 p-2 rounded-lg '>
-                        <Link href = '/auctions/Royal'>
+                    <div className='hover:border-blue-400 w-1/6 p-3 border-gray-300 border m-2 p-2 rounded-lg '>
+                        <Link href = '/auctions/Variety'>
                             <a>
-                                <p className=''>Royal</p>
+                                <Image src='/' alt="Image" height='300' width='300'/>
+                                <p className=''>Variety Name</p>
                                 <br />
-                                <Image src='/images/royal.jpg' height='300' width='300'/>
+                                
                             </a>
                         </Link>
                     </div>
-                    <div className='  w-1/6 p-3 border-red-400 border m-2 p-2 rounded-lg '>
+                    <div className='hover:border-blue-400  w-1/6 p-3 border-gray-300 border m-2 p-2 rounded-lg '>
                         <Link href = '/auctions/Royal'>
                             <a>
+                                <Image src='/images/royal.jpg' height='300' width='300'/>
                                 <p className=''>Royal</p>
                                 <br />
-                                <Image src='/images/royal.jpg' height='300' width='300'/>
+                                
                             </a>
                         </Link>
                     </div>
-                    <div className='  w-1/6 p-3 border-red-400 border m-2 p-2 rounded-lg '>
+                    <div className='hover:border-blue-400  w-1/6 p-3 border-gray-300 border m-2 p-2 rounded-lg '>
                         <Link href = '/auctions/Royal'>
                             <a>
+                                <Image src='/images/royal.jpg' height='300' width='300'/>
                                 <p className=''>Royal</p>
                                 <br />
-                                <Image src='/images/royal.jpg' height='300' width='300'/>
+                                
                             </a>
                         </Link>
                     </div>
-                    <div className='  w-1/6 p-3 border-red-400 border m-2 p-2 rounded-lg '>
+                    <div className='hover:border-blue-400  w-1/6 p-3 border-gray-300 border m-2 p-2 rounded-lg '>
                         <Link href = '/auctions/Royal'>
                             <a>
+                                <Image src='/images/royal.jpg' height='300' width='300'/>
                                 <p className=''>Royal</p>
                                 <br />
-                                <Image src='/images/royal.jpg' height='300' width='300'/>
+                                
                             </a>
                         </Link>
                     </div>
 
-                    <div className='  w-1/6 p-3 border-red-400 border m-2 p-2 rounded-lg '>
+                    <div className='hover:border-blue-400  w-1/6 p-3 border-gray-300 border m-2 p-2 rounded-lg '>
                         <Link href = '/auctions/Golden'>
                             <a>
+                                <Image src='/images/golden.webp' height='300' width='300'/>
                                 <p className=''>Golden</p>
                                 <br />
-                                <Image src='/images/golden.webp' height='300' width='300'/>
+                                
                             </a>
                         </Link>
                     </div>
 
-                    <div className='  w-1/6 p-3 border-red-400 border m-2 p-2 rounded-lg '>
+                    <div className='hover:border-blue-400  w-1/6 p-3 border-gray-300 border m-2 p-2 rounded-lg '>
                         <Link href = '/auctions/Tydeman'>
                             <a>
+                                <Image src='/images/tydeman.jpg' height='300' width='300'/>
                                 <p className=''>Tydeman</p>
                                 <br />
-                                <Image src='/images/tydeman.jpg' height='300' width='300'/>
+                                
                             </a>
                         </Link>
                     </div>
                     
-                    <div className='  w-1/6 p-3 border-red-400 border m-2 p-2 rounded-lg '>
+                    <div className='hover:border-blue-400  w-1/6 p-3 border-gray-300 border m-2 p-2 rounded-lg '>
                         <Link href = '/auctions/Granny-Smith'>
                             <a>
+                                <Image src='/images/grannysmith.jpg' height='300' width='300'/>
                                 <p className=''>Granny Smith</p>
                                 <br />
-                                <Image src='/images/grannysmith.jpg' height='300' width='300'/>
+                                
                             </a>
                         </Link>
                     </div>

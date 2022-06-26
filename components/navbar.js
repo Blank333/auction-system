@@ -10,50 +10,61 @@ export default function navbar() {
 
     return (
         <div>
-            <nav className = 'flex items-center justify-center flex-warp p-3 shadow-lg rounded-lg bg-red-200 text-gray-800'>
+            <nav className = 'flex items-center w-full flex-warp shadow-lg rounded-lg bg-gray-300 text-gray-800'>
     
-                <navbar className = 'text-sm font-bold uppercase tracking-wide '>
+                <navbar className = 'text-xs font-bold uppercase tracking-wide w-full inline-flex'>
                     <button className= 'inline-flex p-3 hover:rounded-lg hover:bg-green-100 rounded lg:hidden ml-auto'
                         onClick={handleClick}
                     >
                         Menu
                     </button>
-                    <div className={`${ active ? '' : 'hidden'} w-full lg:inline-flex lg:w-auto lg:flex-row lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto`}>
-                        <Link href='/'>
-                            <a className = 'inline-flex p-3 mr-4'>
-                                <span className = 'hover:rounded-lg hover:bg-green-100 p-2'>
-                                    Home
-                                </span>
-                            </a>
-                        </Link>
-                        <Link href='/auctions'>
-                            <a className = 'inline-flex p-2 mr-4'>
-                                <span className = 'hover:rounded-lg hover:bg-green-100 p-2'>
-                                    Auctions
-                                </span>
-                            </a>
-                        </Link>
-                        <Link href='/about'>
-                            <a className = 'inline-flex p-2 mr-4'>
-                                <span className = 'hover:rounded-lg hover:bg-green-100 p-2'>
-                                    About
-                                </span>
-                            </a>
-                        </Link>
-                        <Link href='/contact'>
-                            <a className = 'inline-flex p-2 mr-4'>
-                                <span className = 'hover:rounded-lg hover:bg-green-100 p-2'>
-                                    Contact Us
-                                </span>
-                            </a>
-                        </Link>
-                        <Link href='/login'>
-                            <a className = 'inline-flex p-2 mr-4'>
-                                <span className = 'hover:rounded-lg hover:bg-green-100 p-2'>
-                                    Login
-                                </span>
-                            </a>
-                        </Link>
+                    <div className={`${ active ? '' : 'hidden'} lg:flex w-full`}>
+                            <div className='flex w-full items-center'>    
+                                <Link href='/'>
+                                    <a className = 'inline-flex p-3 mr-4'>
+                                        <span className = 'hover:rounded-lg hover:bg-green-100 p-2'>
+                                            Home
+                                        </span>
+                                    </a>
+                                </Link>
+                                <Link href='/auctions'>
+                                    <a className = 'inline-flex p-2 mr-4'>
+                                        <span className = 'hover:rounded-lg hover:bg-green-100 p-2'>
+                                            Auctions
+                                        </span>
+                                    </a>
+                                </Link>
+                                <Link href='/about'>
+                                    <a className = 'inline-flex p-2 mr-4'>
+                                        <span className = 'hover:rounded-lg hover:bg-green-100 p-2'>
+                                            About
+                                        </span>
+                                    </a>
+                                </Link>
+                                <Link href='/contact'>
+                                    <a className = 'inline-flex p-2 mr-4'>
+                                        <span className = 'hover:rounded-lg hover:bg-green-100 p-2'>
+                                            Contact Us
+                                        </span>
+                                    </a>
+                                </Link>
+                            </div>
+                            <div className='flex w-full justify-end items-center'>
+                                <Link href='/login'>
+                                    <a className = 'p-2 mr-4'>
+                                        <span className = 'hover:rounded-lg hover:bg-green-100 p-2'>
+                                            Login
+                                        </span>
+                                    </a>
+                                </Link>
+                                <Link href='/register'>
+                                    <a className = 'p-2 mr-4'>
+                                        <span className = 'hover:rounded-lg hover:bg-green-100 p-2'>
+                                            Register
+                                        </span>
+                                    </a>
+                                </Link>
+                            </div>
                     </div>               
                 </navbar>
             </nav>

@@ -6,7 +6,7 @@ export default function layout({children}) {
 
       <Navbar />
 
-      <div className='p-3 mr-4'> 
+      <div className='mx-4'> 
         {children}
       </div>
 
