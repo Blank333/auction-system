@@ -13,6 +13,11 @@ export default function App({ Component, pageProps }) {
       </Head>
         
       <Component {...pageProps} />
+
+      <footer className='text-center my-4 py-2 bg-gray-100 w-screen'>
+            Powered by caffiene
+      </footer>
+
     </div>
   )
 }
