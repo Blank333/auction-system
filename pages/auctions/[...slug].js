@@ -12,7 +12,7 @@ export default function slug() {
           </div>
           <div className='w-1/2'>
             <section className='inline-flex w-full p-2'>
-              <div className='mx-10 w-1/2'>
+              <div className='mx-10 w-3/4'>
                 <p>Item Name { slug }</p>
                 <p>Harvest Date: date</p>
                 <p>Boxes Available: Total Boxes</p>
@@ -21,10 +21,13 @@ export default function slug() {
                 <p>Seller: BusniessName</p>
               </div>
               <div className='mx-10 w-1/2'>
-                <p>Details</p>
+                <p>Details:</p>
+                <p>Sizes: Pitu(P), Extra Small(XS), Small(S), Medium(M), Large(L), Extra Large(XL)</p>
+                <br />
                 <p>Location: Place</p>
-                <p>Weather Condition: Weather, climate</p>
-                <p>Grade: SSSS</p>
+                <p>Grade: A</p>
+                <p>Boxes Per Size: 40P, 50XS, 20L, 5XL</p>
+                <p>Nearest Market (Pickup): Narail</p>
               </div>
             </section>
             <section className='container'>

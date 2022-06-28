@@ -25,20 +25,20 @@ export default function auctions() {
                         </Link>
                     </div>
                     <div className='hover:border-blue-400  w-1/6 p-3 border-gray-300 border m-2 p-2 rounded-lg '>
-                        <Link href = '/auctions/Royal'>
+                        <Link href = '/auctions/Gale-Gala'>
                             <a>
-                                <Image src='/images/royal.jpg' height='300' width='300'/>
-                                <p className=''>Royal</p>
+                                <Image src='/images/galegala.jpg' height='300' width='300'/>
+                                <p className=''> Gale Gala</p>
                                 <br />
                                 
                             </a>
                         </Link>
                     </div>
                     <div className='hover:border-blue-400  w-1/6 p-3 border-gray-300 border m-2 p-2 rounded-lg '>
-                        <Link href = '/auctions/Royal'>
+                        <Link href = '/auctions/Super-Chief'>
                             <a>
-                                <Image src='/images/royal.jpg' height='300' width='300'/>
-                                <p className=''>Royal</p>
+                                <Image src='/images/superchief.jpg' height='300' width='300'/>
+                                <p className=''>Super Chief</p>
                                 <br />
                                 
                             </a>
