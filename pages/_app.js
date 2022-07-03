@@ -7,8 +7,8 @@ export default function App({ Component, pageProps }) {
     <div>
     <Layout />
       <Head>
-        <title>Apple Mart</title>
-        <meta name="description" content="Apple Auctions for Himachal Pradesh" />
+        <title>Orchard Bids</title>
+        <meta name="description" content="Fruit Auctions for Himachal Pradesh" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
         
