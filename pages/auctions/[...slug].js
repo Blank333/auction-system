@@ -32,7 +32,7 @@ export default function slug() {
             </section>
             <section className='container'>
               <form className='flex flex-col mx-10 my-4 p-2'>
-                <input type='text' className='w-80 p-2 mb-2 shadow-lg border border-gray-400 rounded' placeholder='Enter Bid' />
+                <input type='number' className='w-80 p-2 mb-2 shadow-lg border border-gray-400 rounded' placeholder='Enter Bid' />
                 <button type='submit' className='w-80 bg-blue-400 hover:bg-blue-500 text-white font-bold rounded p-2'>
                       Place Bid
                 </button>
