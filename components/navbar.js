@@ -34,13 +34,13 @@ export default function navbar() {
                                         </span>
                                     </a>
                                 </Link>
-                                <Link href='/about'>
+                                {/* <Link href='/about'>
                                     <a className = 'inline-flex p-2 mr-4'>
                                         <span className = 'hover:rounded-lg hover:bg-green-100 p-2'>
                                             About
                                         </span>
                                     </a>
-                                </Link>
+                                </Link> */}
                                 <Link href='/contact'>
                                     <a className = 'inline-flex p-2 mr-4'>
                                         <span className = 'hover:rounded-lg hover:bg-green-100 p-2'>
